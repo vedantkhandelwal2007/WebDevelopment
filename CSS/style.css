@@ -1,9 +1,18 @@
 <style>
 body {
-  background-image: url('hero.jpg');
-  color: #6ddb23;
+  background-color: #EAF6F6;
+}
+h1 {
+  color: #66BFBF
+}
+h3 {
+  color: #66BFBF
 }
   hr {
-    background-color: black;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
   }
 </style>
