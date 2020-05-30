@@ -3,55 +3,90 @@
   <head>
     <meta charset="utf-8">
     <title>Contact-Me</title>
-<link rel="stylesheet" href="css/style.css">
+<link rel=" icon" href="../Images/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&amp;family=Montserrat&amp;family=Sacramento&amp;display=swap" rel="stylesheet">
 <style>
 body {
-  background-color: #EAF6F6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 h1 {
-  color: #66BFBF
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+}
+h2 {
+font-family: 'Sacramento', cursive;
+font-size: 2.5rem;
+color: #66BFBF;
 }
 h3 {
-  color: #66BFBF
+font-family: 'Montserrat', sans-serif;
+color: #11999E;
 }
-  hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 5px;
-    width: 5%;
-  }
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.middle-cloud {
+  position: absolute;
+  left: 200px;
+  top: 25px;
+}
+.bottem-cloud {
+  position: absolute;
+}
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+  color: #66BFBF;
+}
+.middle-container {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  padding-bottom: 20px;
+}
 </style>
 
   </head>
   <body>
+    <div class="top-container">
+      <img class="top-cloud" src="../Images/cloud.png" alt="cloud-img">
+      <img class="middle-cloud" src="../Images/cloud.png" alt="cloud-img">
+      <h1>Form</h1>
+      <img class="bottem-cloud"src="../Images/cloud.png" alt="cloud-img">
     <center>
-    <h1>My Contact Details</h1>
-  </center>
-<p>My Fictional address </p>
-  <p>000000000</p>
-<hr>
-<center>
-  <table>
-    <tr>
-      <td><h1>Form</h1></td>
-      <td><img src="receipt_1f9fe.png" alt="" />  </td>
-    </tr>
-  </table>
-</center>
+      <img src="../Images/mountain.png" alt="mountain-img">
+    </center>
+    </div>
 
-<form class="" action="index.html" method="post">
+
+<div class="middle-container">
+<form action="mailto:vedantkhandelwal2007@gmail.com" method="post" enctype="text/plain">
   <label>Your Name:</label>
-  <input type="text" name="" value=""><br>
+  <input type="text" name="Your Name:" value=""><br>
   <label>Your Email:</label>
-  <input type="email" name="" value=""><br>
-<label>Your Message</label><br>
-<textarea name="name" rows="15" cols="40"></textarea><br>
+  <input type="email" name="Your Email:" value=""><br>
+<label>Your Message:</label><br>
+<textarea name="Your Message:" rows="15" cols="40"></textarea><br>
   <input type="submit" name="" >
 </form>
+</div>
 <hr>
   <center>
- <h1><a href="index.HTML">HOME PAGE</a></h1>
+ <h2><a href="index.HTML">HOME PAGE</a></h2>
 </center>
   </body>
 </html>
