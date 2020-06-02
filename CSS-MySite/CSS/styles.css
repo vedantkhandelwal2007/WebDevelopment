@@ -50,6 +50,7 @@ position: relative;
 padding-top: 130px;
 padding-bottom: 30px;
 background-color:#66BFBF;
+color: #FFFFFF;
 }
 .vg {
   border-style: none;
@@ -58,6 +59,9 @@ background-color:#66BFBF;
   border-width: 5px;
   width: 5%;
   padding-bottom: 20px;
+}
+.p {
+  color: #40514E;
 }
 .btn_contact {
   padding-bottom: 30px;
