@@ -1,20 +1,58 @@
-
 body {
   margin: 0;
 }
 
-.tittle {
-  background-color: #000;
-  color: #fff;
-  font-family: 'Montserrat', bold;
-  position: relative;
-  padding-top: 50px;
-  padding-left: 2rem;
-}
-.Mainheading {
+h1 {
   font-family: 'Montserrat', bold;
   font-size: 3rem;
   font-weight: 300;
   line-height: 1.5;
 
+}
+
+p {
+  color: #40514E;
+  padding-right: 25%;
+}
+
+h4 {
+  font-family: 'Montserrat', bold;
+}
+
+.p {
+  color: #ffffff;
+}
+
+.s {
+  color: #000;
+}
+
+.aa {
+  width: 100%;
+  position: relative;
+  padding-top: 0;
+}
+
+div {
+position: relative;
+padding-top: 150px;
+padding-bottom: 30px;
+background-color: #000;
+color: #FFFFFF;
+}
+
+.k {
+  font-family: 'Montserrat', bold;
+}
+
+.ak {
+  width: 30%;
+}
+
+.al {
+  width: 20%;
+}
+
+.am {
+  width: 55%;
 }
