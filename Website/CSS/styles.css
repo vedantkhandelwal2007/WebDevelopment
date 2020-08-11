@@ -33,7 +33,7 @@ h4 {
   padding-top: 0;
 }
 
-div {
+.t {
 position: relative;
 padding-top: 150px;
 padding-bottom: 30px;
@@ -55,4 +55,9 @@ color: #FFFFFF;
 
 .am {
   width: 55%;
+}
+
+.card-desk {
+  padding-left: 5%;
+  padding-right: 5%;
 }
