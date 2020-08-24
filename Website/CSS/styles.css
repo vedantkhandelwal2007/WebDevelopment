@@ -12,7 +12,7 @@ h1 {
 
 p {
   color: #40514E;
-  
+
 }
 
 h4 {
@@ -57,7 +57,22 @@ color: #FFFFFF;
   width: 55%;
 }
 
-.card-desk {
-  padding-left: 5%;
-  padding-right: 5%;
+.B1 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.B2 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.B3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.B4 {
+  padding-left: 10px;
+  padding-right: 10px;
 }
